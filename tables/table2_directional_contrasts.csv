@@ -1,0 +1,9 @@
+Dataset,Contrast,Delta macro-F1,95% CI,One-sided p,BH q
+ArtBench-10,Appearance + curvature vs appearance,0.0223759278660912,"[0.0191, 0.0257]",0.0001999600079984,0.0001999600079984
+ArtBench-10,Appearance + full geometry vs appearance,0.0262790622567477,"[0.0230, 0.0297]",0.0001999600079984,0.0001999600079984
+ArtBench-10,Ordinal + curvature vs ordinal,0.0670802989653815,"[0.0607, 0.0734]",0.0001999600079984,0.0001999600079984
+ArtBench-10,Appearance + ordinal + curvature vs appearance + ordinal,0.0168900283651911,"[0.0140, 0.0198]",0.0001999600079984,0.0001999600079984
+WikiArt-8 control,Appearance + curvature vs appearance,0.0233654793676437,"[0.0196, 0.0270]",0.0001999600079984,0.0001999600079984
+WikiArt-8 control,Appearance + full geometry vs appearance,0.0263937399525209,"[0.0227, 0.0300]",0.0001999600079984,0.0001999600079984
+WikiArt-8 control,Ordinal + curvature vs ordinal,0.0638828558708389,"[0.0566, 0.0710]",0.0001999600079984,0.0001999600079984
+WikiArt-8 control,Appearance + ordinal + curvature vs appearance + ordinal,0.0173270426300262,"[0.0140, 0.0208]",0.0001999600079984,0.0001999600079984

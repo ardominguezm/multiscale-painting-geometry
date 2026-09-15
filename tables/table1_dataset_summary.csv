@@ -1,0 +1,3 @@
+Dataset,Styles,Images,Artists,Folds,Role
+ArtBench-10,10,59962,2126,5,Main analysis
+WikiArt-8 control,8,48000,1701,5,Source sensitivity
