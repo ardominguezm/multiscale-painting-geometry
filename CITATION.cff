@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the accompanying article and this repository."
+title: "Multiscale painting geometry: code and results"
+type: software
+authors:
+  - family-names: "Domínguez-Monterroza"
+    given-names: "Andy"
+version: 1.0.0
+date-released: 2026-09-15
+repository-code: "https://github.com/ardominguezm/multiscale-painting-geometry"
+license: MIT
+keywords:
+  - computational art history
+  - level-set geometry
+  - multiscale image analysis
+  - ordinal patterns
+  - artist-disjoint evaluation

@@ -1,0 +1,42 @@
+{
+  "image_preprocessing": {
+    "long_side_pixels": 256,
+    "luminance": "ITU-R BT.601 followed by image-wise min-max normalisation",
+    "boundary_mode": "reflect"
+  },
+  "curvature": {
+    "reference_long_side_pixels": 512,
+    "sigma_reference": [1, 2, 4, 8],
+    "sigma_applied_at_256_pixels": [0.5, 1, 2, 4],
+    "gradient_exclusion_quantile": 0.2,
+    "epsilon": 1e-12,
+    "derivative_truncate": 3.0
+  },
+  "classification": {
+    "folds": 5,
+    "group": "artist",
+    "splitter_seed": 20260829,
+    "classifier_seed": 42,
+    "imputation": "training-fold median",
+    "standardisation": "training-fold mean and standard deviation",
+    "classifier": "one-versus-rest linear support-vector classifier",
+    "C": 1.0,
+    "dual": false,
+    "tolerance": 0.001,
+    "maximum_iterations": 5000,
+    "class_weighting": null,
+    "primary_metric": "macro-F1"
+  },
+  "uncertainty": {
+    "artist_cluster_bootstrap_replicates": 5000,
+    "bootstrap_seed_base": 42,
+    "confidence_interval": "paired percentile 95%",
+    "multiplicity_adjustment": "Benjamini-Hochberg within corpus"
+  },
+  "geometric_organisation": {
+    "artist_centroid": "componentwise median",
+    "permutations": 4999,
+    "permutation_seed": 42,
+    "inferential_unit": "single-style artist"
+  }
+}
