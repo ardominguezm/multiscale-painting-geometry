@@ -103,6 +103,7 @@ Citation metadata are provided in [`CITATION.cff`](CITATION.cff).
 
 ## Contact
 
-Andy Domínguez-Monterroza - andy_dominguez01@javeriana.edu.co
+Andy Domínguez-Monterroza 
+andy_dominguez01@javeriana.edu.co
 Department of Mathematics, Faculty of Sciences  
 Pontificia Universidad Javeriana, Bogotá, Colombia
