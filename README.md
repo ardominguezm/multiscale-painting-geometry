@@ -99,10 +99,10 @@ The source images remain subject to the terms of their original collections and 
 
 ## Citation
 
-Citation metadata are provided in [`CITATION.cff`](CITATION.cff). A DOI can be added to that file after archiving a tagged release in Zenodo.
+Citation metadata are provided in [`CITATION.cff`](CITATION.cff). 
 
 ## Contact
 
-Andy Domínguez-Monterroza  
+Andy Domínguez-Monterroza - andy_dominguez01@javeriana.edu.co
 Department of Mathematics, Faculty of Sciences  
 Pontificia Universidad Javeriana, Bogotá, Colombia
